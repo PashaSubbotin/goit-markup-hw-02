@@ -7,8 +7,8 @@
 }
 body {
     color:var(--basic-color) ;
-    background-color:var(--basic-background-color) ;
-    font-family:"Roboto"sans-serif ;
+    background-color:#FFFFFF;
+    font-family:"Roboto",sans-serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -45,6 +45,7 @@ a {
     color:var(--accent-color)  ;
 }
 .nav-contacts a {
+    color: var(--basic-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -61,14 +62,20 @@ a {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+	text-transform: uppercase;
 } 
 .hero>.btn{
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color:var(--accent-color);
     width: 200px;
     height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border:0;
 }
 .hero>.btn:hover,
 .hero>.btn:focus{
@@ -78,13 +85,19 @@ a {
 .btn {
 cursor: pointer;
 color:#212121;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
 background-color: var(--basic-background-color);
 width: 145px;
 height: 38px;
 } 
 .btn:hover,
 .btn:focus{
-    background-color: #2196F3;
+    background-color:var(
+        --accent-color
+    );
     color:#F5F4FA ;
 }
 .btn-filter {
@@ -96,17 +109,21 @@ height: 38px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    text-transform: uppercase;
 } 
 .features {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
 }
 .features-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.57;
     letter-spacing: 0.03em;
 }
 .member-team {
@@ -139,6 +156,10 @@ height: 38px;
 .footer-contacts a {
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+.footer-contacts {
+    font-style: normal;  
 }
 .footer-contacts a:hover,
 .footer-contacts a:focus {
