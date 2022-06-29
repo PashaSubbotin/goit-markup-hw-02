@@ -84,6 +84,7 @@ a {
 }
 .btn {
 cursor: pointer;
+font-family: 'Roboto';
 color:#212121;
 font-weight: 500;
 font-size: 16px;
@@ -109,19 +110,23 @@ height: 38px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    text-transform: uppercase;
+    letter-spacing: 0.03em;
 } 
 .features {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 .features-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.57;
     letter-spacing: 0.03em;
+    text-transform: none;
+    color:var(--basic-color);
 }
 .member-team {
     font-weight: 500;
@@ -170,7 +175,7 @@ height: 38px;
 .work-project {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.3;
+    line-height: 2;
     letter-spacing: 0.06em;
     color:  #212121;
 }
